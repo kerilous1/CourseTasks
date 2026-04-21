@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  int x3,y3;
+  int x3=0,y3=0;
   print('first range:');
   stdout.write('X1=');
   int x1=int.parse(stdin.readLineSync()!);
@@ -26,5 +26,5 @@ void main() {
   if(x3<=y3)
    print('the intersection is $x3 to $y3');
   else
-   print('There is no intersection!.');
+   print('-1');
 }
